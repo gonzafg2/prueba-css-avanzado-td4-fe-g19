@@ -1,0 +1,19 @@
+.footer{
+    background-color: $color-black;
+    color:$color-white;
+    text-align: center;
+    &__text{
+        padding: 5px;
+    }
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        & a, input, button{
+            padding: 5px;
+        }
+
+
+    }
+}

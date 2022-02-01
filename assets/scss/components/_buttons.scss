@@ -1,0 +1,12 @@
+button {
+  background-color: $fc-primary;
+  &:hover {
+    background-color: $fc-background;
+  }
+}
+input {
+  background-color: $fc-background;
+  &:focus {
+    background-color: $fc-primary;
+  }
+}

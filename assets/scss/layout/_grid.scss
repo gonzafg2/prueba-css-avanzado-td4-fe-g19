@@ -1,0 +1,17 @@
+.pyme-grid {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+
+  .nav {
+    grid-area: nav;
+  }
+  .main {
+    grid-area: main;
+  }
+  .footer {
+    grid-area: footer;
+  }
+}
