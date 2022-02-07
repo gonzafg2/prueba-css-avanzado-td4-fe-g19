@@ -1,0 +1,54 @@
+.box-aside{
+    border: solid 1px black;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.box-contenido{
+
+    &__dos-img{
+        border: solid 1px;
+        border-radius: 50%;
+        width: 250px;
+        height: auto;
+        margin: 15px auto;
+    }
+    
+    &__dos-icon {
+        height: auto;
+        width: 100px;
+        display: flex;
+        margin: 15px auto;
+    }
+
+    &__dos-icon img{
+        margin: 0 5px;
+        justify-content: space-between;
+    }
+
+    &__dos-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: $large;
+    }
+
+    &__dos-paragraph {
+        text-align: justify;
+
+    }
+
+    &__dos-subtitle{
+        text-align: center;
+        background-color: $fc-gray;
+        font-weight: bold;
+        color: $fc-background;
+        margin: 15px 0;
+    }
+
+}
+
+.svg3{
+    width: 280px;
+    margin: 20px auto;
+}

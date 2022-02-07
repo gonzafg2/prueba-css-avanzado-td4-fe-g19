@@ -1,0 +1,51 @@
+.box-section{
+    border: solid 1px black;
+    margin: 15px;
+    padding: 10px;
+
+    
+}
+
+.box-contenido__cuerpo1{
+    border: black dashed 1px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box-contenido__cuerpo2{
+    border: black dashed 1px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box-contenido{
+
+    &__title{
+        font-size: $x-large;
+        margin: 20px 0;
+        font-weight: bold;
+    }
+
+    &__paragraph{
+        font-size: $medium;
+    }
+
+    &__teacher{
+        font-weight: bold;
+    }
+    
+    &__icon{
+        height: 40px;
+        display: flex;
+    }
+    &__icon img{
+        height: 30px;
+        width: auto;
+    }
+    &__icon-number{
+        margin: 0 12px 0 5px;
+        align-self: center;
+    }
+
+
+}

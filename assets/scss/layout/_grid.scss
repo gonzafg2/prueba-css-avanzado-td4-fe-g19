@@ -1,17 +1,82 @@
 .pyme-grid {
   display: grid;
+  grid-gap: 10px;
+  grid-template-columns:  1fr;
   grid-template-areas:
-    "nav"
+    "navbar"
+    "hero"
     "main"
+    "aside"
     "footer";
 
-  .nav {
-    grid-area: nav;
+    @media screen and (min-width: $min-medium){
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "navbar navbar"
+        "hero hero"
+        "main aside"
+        "footer footer";
+    }
+    
+  .navbar {
+    grid-area: navbar;
+    grid-column-end: 4;
+
+    @media screen and (min-width: $min-medium) {
+      grid-area: navbar;
+      grid-template-columns: 1fr;
+      grid-column-end: 4;
+    }
   }
-  .main {
+
+  .box-header{
+  grid-area: hero;
+  grid-template-columns: 1fr;
+  grid-column-end: 4;
+
+}
+
+.main{
+ grid-area: main;
+    grid-template-columns: 1fr;
+    
+    
+    @media screen and (min-width: $min-medium) {
+      
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
+  .box-section {
     grid-area: main;
+    grid-template-columns: 1fr;
+    grid-column-end: 4;
+    
+    @media screen and (min-width: $min-medium) {
+     grid-area: main;
+      grid-template-columns: 1fr;
+    grid-column-start: 0;
+    grid-column-end: 2;
+
+    }
+  }
+  
+
+  .box-aside {
+    grid-area: aside;
+    grid-template-columns: 1fr;
+    grid-column-end: 4;
+    
+    @media screen and (min-width: $min-medium) {
+      grid-area: aside;
+
+    }
   }
   .footer {
     grid-area: footer;
+    grid-column-end: 4;
+    
   }
 }

@@ -1,0 +1,12 @@
+.box-header{
+    background-image: url(/assets/img/desarrolloweb2021t.svg);
+    height: 250px;
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: $min-medium) {
+        background-image: url(/assets/img/desarrolloweb2021t.svg);
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+}

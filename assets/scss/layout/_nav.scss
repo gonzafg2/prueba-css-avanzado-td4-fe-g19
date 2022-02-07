@@ -1,0 +1,21 @@
+.navbar {
+    background-color: $fc-contrast;
+    color: $fc-background;
+    height: 80px;
+    display: flex;
+    position: relative;
+
+    &__logo{
+        width: 50px;
+        height: auto;
+    }
+
+    &__items {
+        text-decoration: none;
+        display: inline; 
+        text-align: center;
+        justify-content: end;
+        font-weight: bold;
+    }
+}
+

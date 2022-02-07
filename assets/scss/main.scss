@@ -13,14 +13,15 @@
 @import "layout/grid";
 @import "layout/nav";
 @import "layout/hero";
-@import "layout/features";
-@import "layout/price";
+@import "layout/main";
+@import "layout/courses";
 @import "layout/footer";
 
 /*components*/
 @import "components/buttons";
 @import "components/carousel";
 @import "components/cover";
+@import "components/svg";
 
 /*themes*/
 @import "themes/theme";
