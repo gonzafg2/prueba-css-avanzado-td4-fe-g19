@@ -1,9 +1,10 @@
 .footer{
-    background-color: $color-black;
-    color:$color-white;
+    background-color: $fc-secondary;
+    color:$fc-background;
     text-align: center;
+    padding: 20px 0;
     &__text{
-        padding: 5px;
+        padding: 10px 90px;
     }
     &__nav{
         display: flex;
@@ -15,5 +16,26 @@
         }
 
 
+    }
+    .form{
+        width: 200px;
+        margin: 0 auto;
+        border: solid 2px $fc-gray;
+        border-radius: 6px;
+    }
+
+    ::placeholder{
+        color: $fc-gray;
+    }
+
+    .btn{
+        width: 60px;
+        margin: 5px auto;
+        background-color: $fc-primary;
+        border: solid 2px $fc-gray;
+    }
+
+    .btn:hover {
+        background-color: $fc-hover;
     }
 }
